@@ -24,12 +24,12 @@ public class Hexwithside
         newVertices[4] = new Vector3(0, 0, -1);
         newVertices[5] = new Vector3(-xpoint, 0, -Oppositelength);
         newVertices[6] = new Vector3(-xpoint, 0, Oppositelength);
-        newVertices[7] = new Vector3(0, -3f, 1);
-        newVertices[8] = new Vector3(xpoint, -3f, Oppositelength);
-        newVertices[9] = new Vector3(xpoint, -3f, -Oppositelength);
-        newVertices[10] = new Vector3(0, -3f, -1);
-        newVertices[11] = new Vector3(-xpoint, -3f, -Oppositelength);
-        newVertices[12] = new Vector3(-xpoint, -3f, Oppositelength);
+        newVertices[7] = new Vector3(0, -6f, 1);
+        newVertices[8] = new Vector3(xpoint, -6f, Oppositelength);
+        newVertices[9] = new Vector3(xpoint, -6f, -Oppositelength);
+        newVertices[10] = new Vector3(0, -6f, -1);
+        newVertices[11] = new Vector3(-xpoint, -6f, -Oppositelength);
+        newVertices[12] = new Vector3(-xpoint, -6f, Oppositelength);
         mesh.vertices = newVertices;
         mesh.RecalculateBounds();
         

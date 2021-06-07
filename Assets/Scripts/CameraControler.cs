@@ -31,7 +31,7 @@ public class CameraControler : MonoBehaviour
         if(Input.GetKey("e"))
         {
             Y = Y + 0.25f;
-            print("up");
+            
         }
         else 
         {

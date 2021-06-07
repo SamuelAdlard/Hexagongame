@@ -24,6 +24,7 @@ public class Meshcombine : MonoBehaviour
         transform.GetComponent<MeshFilter>().mesh = new Mesh();
         transform.GetComponent<MeshFilter>().mesh.CombineMeshes(combine);
         transform.gameObject.SetActive(true);
+        gameObject.AddComponent<MeshCollider>();
         
     }
 }
